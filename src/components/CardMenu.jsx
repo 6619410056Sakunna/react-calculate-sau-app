@@ -1,4 +1,4 @@
-import Bmi from "./../assets/bmi.png";
+
 
 export default function CardMenu({ imgShow, titleShow, stitleShow }) {
   return (

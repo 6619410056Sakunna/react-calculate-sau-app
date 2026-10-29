@@ -1,4 +1,5 @@
 import bmi from "./../assets/bmi.png";
+import { Link } from "react-router";
 
 export default function Bmi() {
   return (
@@ -49,6 +50,10 @@ export default function Bmi() {
           <p className="font-kanit font-bold mt-5">ค่า BMI ที่คำนวณได้</p>
           <p className="font-kanit font-bold mt-5 text-blue-600"> 0.00</p>
         </div>
+        {/* กลับหน้า */}
+        <Link to="/" className="w-full text-center bg-gray-400 text-white p-2 mt-4 rounded-sm font-kanit font-bold">
+          กลับหน้าหลัก
+        </Link>
       </div>
     </>
   );
